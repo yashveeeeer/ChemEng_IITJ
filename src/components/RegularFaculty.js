@@ -15,7 +15,29 @@ export default function RegularFaculty() {
             <section className="team" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
                 <div className="container ">
                     
-                    <div className="col-lg-4 mx-auto d-flex align-items-stretch">
+                     <div className="col-lg-4 mx-auto d-flex align-items-stretch">
+                            <div className="member">
+                                <div className="member-img">
+                                    <img src={'https://iitj.ac.in/dept_faculty_pic/2024-01-24-65b0d5ea0bca3-1706087914.jpg'} className="img-fluid" alt="" />
+                                    <div className="social">
+                                        <Link aria-current="page" to="mailto: parag@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
+                                        <Link aria-current="page" to="https://iitj.irins.org/profile/158035" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
+                                        <Link aria-current="page" to="http://home.iitj.ac.in/~parag/pad.html" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-house"></i></Link>
+                                        {/* <Link aria-current="page" to="http://home.iitj.ac.in/~nirmalya/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-house"></i></Link> */}
+                                        <Link aria-current="page" to="tel:+91-291-2801726"><i className="bi bi-phone-fill"></i></Link>
+                                        {/* <Link aria-current="page" to="https://www.linkedin.com/in/nirmalya-bachhar-219173b/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></Link>*/}
+                                    </div>
+                                </div>
+                                <div className="member-info">
+                                    <h4>Parag Arvind Deshpande</h4>
+                                    <span>Head of Department</span>
+                                    <p><span style={{ fontWeight: 'bold', color: 'black' }}>PhD. : Indian Institute of Science Bangalore</span></p>
+                                    <p>Computational catalysis; computational materials science; computational molecular biology</p>
+                                </div>
+                            </div>
+                        </div>
+                    <div className="row">
+                    <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                         <div className="member">
                             <div className="member-img">
                                 <img src={process.env.PUBLIC_URL + '/Images/Faculty/Chem_hod.jpg'} className="img-fluid" alt="" />
@@ -29,33 +51,12 @@ export default function RegularFaculty() {
                             </div>
                             <div className="member-info">
                                 <h4>Pradip K Tewari</h4>
-                                <span>Jal Jeevan Mission Professor Chair and Head of Department</span>
+                                <span>Jal Jeevan Mission Professor Chair</span>
                                 <p><span style={{ fontWeight: 'bold', color: 'black' }}>Ph.D. :Indian Institute of Technology Bombay</span></p>
-                                <p style={{ textAlign: 'justify' }}>Water Technologies; Membrane Technology; Desalination; Nanocomposite Membrane Technology; Heat Transfer and Two Phase Flow.</p>
+                                <p>Water Technologies; Membrane Technology; Desalination; Nanocomposite Membrane Technology; Heat Transfer and Two Phase Flow.</p>
                             </div>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
-                            <div className="member">
-                                <div className="member-img">
-                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/abhilasham.jpg'} className="img-fluid" alt="" />
-                                    <div className="social">
-                                        <Link aria-current="page" to="mailto: abhilasham@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
-                                        <Link aria-current="page" to="https://iitj.irins.org/profile/229215" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
-                                        <Link aria-current="page" to="https://sites.google.com/iitj.ac.in/abhilasham/home" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-house"></i></Link>
-                                        <Link aria-current="page" to="tel:+91-291-2801713"><i className="bi bi-phone-fill"></i></Link>
-                                        <Link aria-current="page" to="https://www.linkedin.com/in/dr-abhilasha-maheshwari-55406a7b/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></Link>
-                                    </div>
-                                </div>
-                                <div className="member-info">
-                                    <h4>Abhilasha Maheshwari</h4>
-                                    <span>Assistant Professor</span>
-                                    <p><span style={{ fontWeight: 'bold', color: 'black' }}>Ph.D. :Indian Institute of Technology Bombay & Washington University</span></p>
-                                    <p>Process Systems Engineering; Water Distribution Networks; Modelling; Optimization; Sustainability; Environmental Chemistry</p>
-                                </div>
-                            </div>
-                        </div>
                         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                             <div className="member">
                                 <div className="member-img">
@@ -113,46 +114,6 @@ export default function RegularFaculty() {
                                     <span>Assistant Professor</span>
                                     <p><span style={{ fontWeight: 'bold', color: 'black' }}>Ph.D. :Indian Institute of Technology Roorkee</span></p>
                                     <p>CFD; Lattice Boltzmann method; Aerogels; Nanoparticles-based phase change material</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
-                            <div className="member">
-                                <div className="member-img">
-                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/nirmalya.jpg'} className="img-fluid" alt="" />
-                                    <div className="social">
-                                        <Link aria-current="page" to="mailto: nirmalya@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
-                                        <Link aria-current="page" to="https://iitj.irins.org/profile/196325" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
-                                        <Link aria-current="page" to="http://home.iitj.ac.in/~nirmalya/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-house"></i></Link>
-                                        <Link aria-current="page" to="tel:+91-291-2801711"><i className="bi bi-phone-fill"></i></Link>
-                                        <Link aria-current="page" to="https://www.linkedin.com/in/nirmalya-bachhar-219173b/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></Link>
-                                    </div>
-                                </div>
-                                <div className="member-info">
-                                    <h4>Nirmalya Bachhar</h4>
-                                    <span>Assistant Professor</span>
-                                    <p><span style={{ fontWeight: 'bold', color: 'black' }}>Ph.D. :Indian Institute of Technology Bombay</span></p>
-                                    <p>Nanomaterials; polymer nanocomposite; self-assembly</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
-                            <div className="member">
-                                <div className="member-img">
-                                    <img src={'https://iitj.ac.in/dept_faculty_pic/2024-01-24-65b0d5ea0bca3-1706087914.jpg'} className="img-fluid" alt="" />
-                                    <div className="social">
-                                        <Link aria-current="page" to="mailto: parag@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
-                                        <Link aria-current="page" to="https://iitj.irins.org/profile/158035" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
-                                        {/* <Link aria-current="page" to="http://home.iitj.ac.in/~nirmalya/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-house"></i></Link> */}
-                                        <Link aria-current="page" to="tel:+91-291-2801726"><i className="bi bi-phone-fill"></i></Link>
-                                        {/* <Link aria-current="page" to="https://www.linkedin.com/in/nirmalya-bachhar-219173b/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></Link> */}
-                                    </div>
-                                </div>
-                                <div className="member-info">
-                                    <h4>Parag Arvind Deshpande</h4>
-                                    <span>Professor</span>
-                                    <p><span style={{ fontWeight: 'bold', color: 'black' }}>PhD. : Indian Institute of Science Bangalore</span></p>
-                                    <p>Computational catalysis; computational materials science; computational molecular biology</p>
                                 </div>
                             </div>
                         </div>

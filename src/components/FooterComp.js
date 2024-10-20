@@ -66,7 +66,15 @@ export default function FooterComp() {
                                 <br/>
                                 <strong>Phone:</strong> <Link aria-current="page" to="tel:+91-291-2801702">+91-291-2801702</Link><br />
                                 <strong>Email:</strong> <Link aria-current="page" to="mailto: office_che@iitj.ac.inn">office_che@iitj.ac.in</Link><br />
-                            </div>
+                                <br/>
+                                    <div className="row-lg-2 row-md-6 social-links">
+                                    <Link aria-current="page" to="https://twitter.com/ChemEngg_IITJ" className="twitter" target="_blank" rel="noopener noreferrer"><i className="bx bxl-twitter h-10 w-10"></i></Link>
+                                    <Link aria-current="page" to="https://www.facebook.com/ChemEngg.IITJ/" className="facebook" target="_blank" rel="noopener noreferrer"><i className="bx bxl-facebook"></i></Link>
+                                    <Link aria-current="page" to="https://www.instagram.com/chemengg_iitjodhpur/" className="instagram" target="_blank" rel="noopener noreferrer"><i className="bx bxl-instagram"></i></Link>
+                                    <Link aria-current="page" to="https://www.youtube.com/@chemeiitj" className="youtube" target="_blank" rel="noopener noreferrer"><i className="bx bxl-youtube"></i></Link>
+                                    <Link aria-current="page" to="https://in.linkedin.com/company/dept-chem-engg-iit-jodhpur?original_referer=https%3A%2F%2Fwww.google.com%2F" className="linkedin" target="_blank" rel="noopener noreferrer"><i className="bx bxl-linkedin"></i></Link>
+                                    </div>
+                             </div>
                             <div className="col-lg-2 col-md-6 footer-links">
                                 <h4>Useful Links</h4>
                                 <ul>
@@ -96,15 +104,24 @@ export default function FooterComp() {
                                     <input type="email" name="email" required/>
                                     <input type="submit" value="Subscribe" onClick={handleClick}/>
                                 </form>
-                                <div className="row">
+                                <br />
+                                {/* <div className="row">
                                     <img src={process.env.PUBLIC_URL + '/Images/150_years.jpeg'} className="img-fluid" alt="" style={{width:'34%',padding:'10px',margin:'5px 0px 0px 25px'}}/>
                                     <img src={process.env.PUBLIC_URL + '/Images/75_Years.jpeg'} className="img-fluid" alt="" style={{width:'40%',padding:'10px',margin:'5px 0px 0px 25px'}}/>
+                                </div> */}
+                                <div className="me-md-auto text-center text-md-start">
+                                      <div className="copyright">
+                                         &copy;2023 All Rights Reserved, <strong><span>IIT Jodhpur</span></strong>.
+                                      </div>
+                                      <div className="credits">
+                                         For any comments/enquiries/feedback, please eMail to the <a href="mailto: webmaster@iitj.ac.in">Webmaster</a>
+                                      </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="mx-2 d-md-flex py-4 fixed-bottom bg-gray">
+                {/* <div className="mx-2 d-md-flex py-4 fixed-bottom bg-gray">
                     <div className="me-md-auto text-center text-md-start">
                         <div className="copyright">
                             &copy;2023 All Rights Reserved, <strong><span>IIT Jodhpur</span></strong>.
@@ -120,7 +137,7 @@ export default function FooterComp() {
                         <Link aria-current="page" to="https://www.youtube.com/@chemeiitj" className="youtube" target="_blank" rel="noopener noreferrer"><i className="bx bxl-youtube"></i></Link>
                         <Link aria-current="page" to="https://in.linkedin.com/company/dept-chem-engg-iit-jodhpur?original_referer=https%3A%2F%2Fwww.google.com%2F" className="linkedin" target="_blank" rel="noopener noreferrer"><i className="bx bxl-linkedin"></i></Link>
                     </div>
-                </div>
+                </div> */}
             </footer>
         </>
     )
