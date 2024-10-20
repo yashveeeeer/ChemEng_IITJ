@@ -1239,8 +1239,8 @@ section {
   background: var(--color-secondary);
   color: #fff;
   line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
+  padding: 8px;
+  margin-right: 10px;
   border-radius: 50%;
   text-align: center;
   width: 36px;

@@ -22,7 +22,8 @@ export default function Home() {
     return (
         <>
             <Navbar/>
-            <Carousel fade className="carousel-control" style={{marginTop:'165px'}} data-aos="fade-down">
+            <div className='research-info'>
+            <Carousel fade className="carousel-control" style={{margin:'150px 50px 50px 30px'}} data-aos="fade-down">
                 <Carousel.Item interval={1000}>
                     <img
                     className="d-block w-100"
@@ -123,6 +124,7 @@ export default function Home() {
                     />
                 </Carousel.Item>
             </Carousel>
+            </div>
             <section id="onfocus" className="onfocus">
                 <div className="container-fluid p-0" data-aos="fade-up">
                     <div className="row g-0">
@@ -174,7 +176,7 @@ export default function Home() {
                             <img className="advanced-feature-img-right wow fadeInRight" src={process.env.PUBLIC_URL + '/Images/Faculty/Chem_Hod.jpeg'} alt=""/>
                             <div>
                                 <h1>Message From the Head of Department</h1>
-                                <h3>Pradip Kumar Tewari, Jal Jeevan Mission Professor Chair and Head, Department of Chemical Engineering</h3>
+                                <h3>Parag Arvind Deshpande</h3>
                                 <p>The vision of the Department is to become a globally recognized hub of Chemical Engineering through its contribution in emerging and demand driven areas with a multidisciplinary approach. ‘Digitalisation, Decarbonisation
                                 and Decentralisation’ (3Ds) is the future of Chemical Engineering. Translation of molecular information into the discovery of new products and processes will play an important role.</p>
                                 <h3><span style={{fontWeight:'bold'}}>DEPARTMENT IS KEEN ON COLLABORATION WITH INDUSTRIES, R&D ORGANISATIONS AND ACADEMIA WORLD-WIDE</span></h3>
