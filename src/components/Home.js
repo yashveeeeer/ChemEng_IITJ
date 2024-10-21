@@ -23,7 +23,7 @@ export default function Home() {
         <>
             <Navbar/>
             <div className='research-info'>
-            <Carousel fade className="carousel-control" style={{margin:'150px 50px 50px 30px'}} data-aos="fade-down">
+            <Carousel fade className="carousel-control" style={{margin:'175px 50px 50px 30px'}} data-aos="fade-down">
                 <Carousel.Item interval={1000}>
                     <img
                     className="d-block w-100"
